@@ -52,7 +52,6 @@ const Header: React.FC = () => {
     username === rightUsername && password === rightPassword
       ? dispatch(changeLoginState(true))
       : dispatch(changeLoginState(false));
-    console.log(login);
   }, [username, password]);
 
   return (
